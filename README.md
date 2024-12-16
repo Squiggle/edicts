@@ -10,8 +10,9 @@ Code smells:
 - `Helper`
 - `New`
 - `Next`
+- `Common`
 
-**"Miscellanious" and "Utilities" tend to be poorly defined collections of unrelated logic.** These classes, modules or folders are a dumping ground for lazy engineers - _or_ a symptom of poor architecture. 
+**"Miscellanious", "Utilities" and "Common" tend to be poorly defined collections of unrelated logic.** These classes, modules or folders are a dumping ground for lazy engineers - _or_ a symptom of poor architecture. 
 
 **"Helper" methods, modules and classes also regularly cause tight coupling**; the same behaviour being reused in multiple places throughout a solution.
 
